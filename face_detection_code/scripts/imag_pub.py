@@ -22,6 +22,10 @@ from cv_bridge import CvBridge, CvBridgeError
 # 
 # Reads and checks the number of command-line arguments 
 # and calls the imag_pub function
+#
+#path_name_1 variable is the OpenCV directory
+#
+#path_name_2 variable is the database directory
 def main(argv):
     no_arg = 2
     if not len(sys.argv) > no_arg:
