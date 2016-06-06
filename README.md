@@ -1,6 +1,6 @@
 # Face Detection Node for ROS using Rviz #
 
-This is a ROS node which reads images from a given directory, detects faces, and publishes the images with the detected faces encircled to the <code>sensor_msgs/Image</code> topic which can be subscribed by Rviz for visualisation.
+This is a ROS node which reads images from a given directory, detects faces, and publishes the images with the detected faces encircled, to the <code>sensor_msgs/Image</code> topic which can be subscribed by Rviz for visualisation.
 
 ## Prerequisites ##
 
@@ -25,7 +25,7 @@ $ source ./devel/setup.bash
 ```
 If you do not have OpenCV-2 versions installed, edit the find_package line in CMakeLists.txt.
 
-###3.Running the code###
+###3. Running the code###
 Open a new terminal and run [roscore](http://wiki.ros.org/rviz).
 Do not forget to source the environmental setup file in each of the new terminals.
 ```
