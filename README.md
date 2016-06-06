@@ -7,30 +7,30 @@ This is a ROS node which reads images from a given directory, detects faces, and
 
 ###1. [Install and configure ROS](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)###
 
-###2. Run [ROS Core](http://wiki.ros.org/roscore)###
-
-Enter the following into the terminal:
-
-```
-$ roscore
-```
-
-###3. Run [Rviz](http://wiki.ros.org/rviz)###
-
-Open a new terminal and enter the following:
-
-```
-$ rosrun rviz rviz
-```
+###2. Install  [Rviz](http://wiki.ros.org/rviz)###
 
 
 ## Getting Started ##
 
-###1. Download or clone the package###
+###1. Download or clone the package into your [catkin](http://wiki.ros.org/catkin)workspace###
+ 
+###2. Initialisation ##
+Source yur environment setup file.
+```
+$ source /opt/ros/%your distro%/setup.bash
+```
+From your catkin workspace, enter the following.
+```
+$ catkin_make
+$ source ./devel/setup.bash
+```
+If you do not have OpenCV-2 versions installed, edit the find_package line in CMakeLists.txt.
 
-###2. Run the package on ROS###
-Open a new terminal and enter the following:
-
+###3.Running the code###
+Open
+```
+$ source /opt/ros/%your distro%/setup.bash
+```
 ```
 $ rosrun face_detector imag_pub.py <OpenCV dir> <Database dir>
 
