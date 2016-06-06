@@ -27,12 +27,18 @@ $ source ./devel/setup.bash
 If you do not have OpenCV-2 versions installed, edit the find_package line in CMakeLists.txt.
 
 ###3.Running the code###
-Open
+Open a new terminal and run [roscore](http://wiki.ros.org/rviz).
+Do not forget to source the environmental setup file in every new terminal.
 ```
-$ source /opt/ros/%your distro%/setup.bash
+$ roscore
 ```
+Open another terminal and run the code with arguments as shown below.
 ```
 $ rosrun face_detector imag_pub.py <OpenCV dir> <Database dir>
 
 ```
-
+Use another terminal to open rviz.
+```
+$ rosrun rviz rviz
+```
+Setup your rviz to subscribe to the images from the sensor_msgs topic 
