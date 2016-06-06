@@ -1,7 +1,6 @@
 # Face Detection Node for ROS using Rviz #
 
-This is a ROS node which reads images from a given directory, detects faces, and publishes the images with the detected faces encircled to the <code>sensor_msgs/Image</code> topic which can be subscribed by Rviz to view them.
-
+This is a ROS node which reads images from a given directory, detects faces, and publishes the images with the detected faces encircled to the <code>sensor_msgs/Image</code> topic which can be subscribed by Rviz for visualisation.
 
 ## Prerequisites ##
 
@@ -17,7 +16,7 @@ This is a ROS node which reads images from a given directory, detects faces, and
 ###2. Initialisation ##
 Source yur environment setup file.
 ```
-$ source /opt/ros/%your distro%/setup.bash
+$ source /opt/ros/%your_distro%/setup.bash
 ```
 From your catkin workspace, enter the following.
 ```
