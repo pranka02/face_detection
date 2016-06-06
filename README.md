@@ -1,4 +1,4 @@
-# Face Detection Node for ROS using OpenCV #
+# Face Detection ROS Node using OpenCV #
 
 This is a ROS node which reads images from a given directory, detects faces, and publishes the images with the detected faces encircled, to the <code>sensor_msgs/Image</code> topic which can be subscribed by Rviz for visualisation.
 
