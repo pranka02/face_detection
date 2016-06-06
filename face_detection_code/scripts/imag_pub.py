@@ -4,7 +4,7 @@
 A ROS node which reads images from a given directory, 
 detects faces, and publishes the images with the detected 
 faces encircled over the sensor_msgs/Image topic which 
-can be subscribed by rviz to view them.
+can be subscribed by rviz for visualisation.
 """
 
 import sys
