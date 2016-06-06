@@ -34,10 +34,9 @@ $ roscore
 Open another terminal and run the code with arguments as shown below.
 ```
 $ rosrun face_detector imag_pub.py <OpenCV dir> <Database dir>
-
 ```
 Use another terminal to open rviz.
 ```
 $ rosrun rviz rviz
 ```
-Setup your rviz to subscribe to the images from the sensor_msgs topic 
+Setup your rviz to subscribe to images from the <code>sensor_msgs</code> topic 
