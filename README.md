@@ -43,4 +43,4 @@ Setup your rviz to subscribe to images from the <code>sensor_msgs</code> topic
 
 #### DOCUMENTATION ####
 
-Find the documentation link at <code>asimov/face_detection_documentation/documentation/index.html<code>
+Find the documentation link at <code>face_detection_documentation/documentation/index.html<code>
