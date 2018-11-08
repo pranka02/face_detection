@@ -11,9 +11,9 @@ This is a ROS node which reads images from a given directory, detects faces, and
 
 ### Getting Started ###
 
-####1. Download or clone the package into your [catkin](http://wiki.ros.org/catkin) workspace####
+#### 1. Download or clone the package into your [catkin](http://wiki.ros.org/catkin) workspace####
  
-####2. Initialisation####
+#### 2. Initialisation####
 Open a new terminal and source your environment setup file by typing the following: 
 ```
 $ source /opt/ros/%your_distro%/setup.bash
@@ -25,7 +25,7 @@ $ source ./devel/setup.bash
 ```
 If you do not have OpenCV-2 versions installed, edit the find_package line in CMakeLists.txt.
 
-####3. Running the code####
+#### 3. Running the code####
 Open a new terminal and run [roscore](http://wiki.ros.org/rviz).
 Do not forget to source the environmental setup file in each of the new terminals.
 ```
