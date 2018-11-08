@@ -11,9 +11,9 @@ This is a ROS node which reads images from a given directory, detects faces, and
 
 ### Getting Started ###
 
-#### 1. Download or clone the package into your [catkin](http://wiki.ros.org/catkin) workspace####
+#### 1. Download or clone the package into your [catkin](http://wiki.ros.org/catkin) workspace
  
-#### 2. Initialisation####
+#### 2. Initialisation
 Open a new terminal and source your environment setup file by typing the following: 
 ```
 $ source /opt/ros/%your_distro%/setup.bash
