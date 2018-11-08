@@ -25,7 +25,7 @@ $ source ./devel/setup.bash
 ```
 If you do not have OpenCV-2 versions installed, edit the find_package line in CMakeLists.txt.
 
-#### 3. Running the code####
+#### 3. Running the code
 Open a new terminal and run [roscore](http://wiki.ros.org/rviz).
 Do not forget to source the environmental setup file in each of the new terminals.
 ```
